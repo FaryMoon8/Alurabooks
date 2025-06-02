@@ -1,0 +1,28 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --bg_cor_pri:#EBECEE;
+    --bg_cor_sec:#ffffff;
+    --eft_cor_sec:#EB9B00;
+    --eft_cor_ter: #002f52;
+    --eft_cor_qua: black;
+    --eft_cor_qui: #474646;
+    --eft_cor_sex: #858585;
+    --eft_cor_degrade:linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --font_pri: "Poppins", sans-serif;
+}
+
+body{
+    background-color: var(--bg_cor_pri);
+    font-family: var(--font_pri);
+    font-size: 1em ;
+    font-weight: 400;
+}
